@@ -1,0 +1,34 @@
+html, body, h1, h2, h3, p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Castellar, Arial, "Times New Roman";
+    text-align: center;
+    background-color: #563635;
+    color: #81F0E5;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Centaur;
+    text-align: center;
+    text-decoration: italic;
+    background-color: #6E9075;
+    color: #563635;
+    padding:10px;
+}
+
+body {
+    background-color: #5B6057;
+}
+
+p {
+    
+}
