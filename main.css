@@ -38,8 +38,10 @@ h3 {
     text-align: left;
     text-shadow: 2px 2px black;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     color: #81F0E5;
+    border-bottom: 2px solid black;
+    width: 470px;
 }
 
 body {
@@ -64,15 +66,15 @@ a {
     
 }
 
-a:hover {
+nav a:hover {
     color: #0000ff;
 }
 
-a:active {
-    transform: scale(50%);
+nav a:active {
+    transform: scale(1.5);
 }
 
-.intro{
+.intro {
     font-size: 18px;
     font-family: Centaur, Arial, "Times New Roman";
     text-align: left;
@@ -85,6 +87,10 @@ a:active {
 img {
     border: 10px solid #563635;
     box-shadow: 3px 5px 10px black;
+}
+
+img:active {
+    transform: scale(0.75);
 }
 
 .hobbies {
