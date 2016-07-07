@@ -85,6 +85,9 @@ nav a:active {
     color: #78C091;
 }
 
+.blackText {
+    color: #000000;
+}
 img {
     border: 10px solid #563635;
     box-shadow: 3px 5px 10px black;
