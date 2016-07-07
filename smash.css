@@ -48,8 +48,9 @@ p {
     position: relative;
 }
 
-body {
-    background-color: white;
+a {
+    text-decoration: none;
+    color: #0000ff;
 }
 
 nav a {
@@ -57,10 +58,17 @@ nav a {
     color: inherit;
 }
 
+nav a:hover {
+    color: #660066;
+}
+
 .blackText {
     color: #000000;
 }
 
+.blackText:hover {
+    color: #660066;
+}
 .smashpic {
     padding: 0px 30px;
     float: left;

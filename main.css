@@ -71,10 +71,6 @@ nav a:hover {
     color: #0000ff;
 }
 
-nav a:active {
-    transform: scale(1.5);
-}
-
 .intro {
     font-size: 18px;
     font-family: Centaur, Arial, "Times New Roman";
@@ -88,6 +84,11 @@ nav a:active {
 .blackText {
     color: #000000;
 }
+
+.blackText:hover {
+    color: #0000ff;
+}
+
 img {
     border: 10px solid #563635;
     box-shadow: 3px 5px 10px black;
