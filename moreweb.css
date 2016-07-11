@@ -1,0 +1,37 @@
+/* morewebpages css */
+
+html, body, h1, h2, h3, nav, p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+body {
+    background-color: #6D676E;
+}
+
+nav {
+    font-family: Impact;
+    font-size: 30px;
+    margin: 20px 20px;
+    color: #FAA916;
+}
+
+nav a {
+    text-decoration: none;
+    text-shadow: 5px 5px black;
+    color: #FAA916;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: #96031A;
+}
+
+.colorText {
+    color: #96031A;
+    transition: color 0.5s;
+}
