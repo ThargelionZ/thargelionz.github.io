@@ -83,6 +83,7 @@ nav a:hover {
 
 .blackText {
     color: #000000;
+    transition: color 0.5s;
 }
 
 .blackText:hover {
