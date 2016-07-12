@@ -27,9 +27,16 @@ h2 {
     display: inline;
 }
 
+h3 {
+    font-family:Papyrus, Arial, "Times New Roman";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
 main {
     background: linear-gradient(to bottom, tan, #ede1d1);
-    height: 1000px
+    height: 1000px;
 }
 
 nav {

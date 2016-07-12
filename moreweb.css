@@ -42,6 +42,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .colorText {
     color: #96031A;
     transition: color 0.5s;
