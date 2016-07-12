@@ -1,0 +1,98 @@
+/* make food.css styling sheet */
+
+html, body, main, header, h1, h2, h3, nav, a, p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+header {
+    background-color: tan;
+}
+
+h1 {
+    font-family: Papyrus, Arial, "Times New Roman";
+    font-size: 70px;
+    padding: 10px 0px 0px 20px;
+    display: inline;
+}
+
+h2 {
+    font-family: Papyrus, Arial, "Times New Roman";
+    font-size: 20px;
+    padding: 10px 0px 0px 20px;
+    display: inline;
+}
+
+main {
+    background: linear-gradient(to bottom, tan, #ede1d1);
+    height: 1000px
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+}
+
+.navis {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.navi {
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    padding: 13px 50px 12px 50px;
+    transition: background-color 0.3s;
+}
+
+.nav1 {
+    margin-left: 0px;
+    background-color: gray;
+}
+
+.nav2 {
+    margin-left: 200px;
+}
+
+.nav3 {
+    margin-left: 400px;
+}
+
+.nav4 {
+    margin-left: 600px;
+}
+
+.nav5 {
+    margin-left: 800px;
+}
+
+.nav6 {
+    margin-left: 1000px;
+}
+
+.navi:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+nav p {
+    color: white;
+    font-weight: bold;
+    display: inline;
+}
+
+.blade {
+    position: absolute;
+    right: 30px;
+    width: 300px;
+    margin-top: -20px;
+}
+
+p {
+    font-family: Papyrus, Arial, "Times New Roman";
+}
