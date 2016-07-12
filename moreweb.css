@@ -1,6 +1,6 @@
 /* morewebpages css */
-
-html, body, h1, h2, h3, nav, p {
+/* color theme: #FAA916 (yellow), #FBFFFE (white), #6D676E (gray), #1B1B1E (black), #96031A (red) */
+html, body, main, h1, h2, h3, nav, a, p {
     margin: 0;
     border: 0;
     padding: 0;
@@ -13,8 +13,15 @@ body {
     background-color: #6D676E;
 }
 
+h1 {
+    font-size: 50px;
+    font-family: Impact, Arial, "Times New Roman";
+    margin: 20px 20px;
+    color: #1B1B1E;
+}
+
 nav {
-    font-family: Impact;
+    font-family: Impact, Arial, "Times New Roman";
     font-size: 30px;
     margin: 20px 20px;
     color: #FAA916;
@@ -31,6 +38,10 @@ nav a:hover {
     color: #96031A;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .colorText {
     color: #96031A;
     transition: color 0.5s;
