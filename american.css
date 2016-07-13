@@ -34,7 +34,7 @@ h3 {
 
 main {
     background: linear-gradient(to bottom, red, yellow);
-    height: 1400px;
+    overflow: hidden;
 }
 
 nav {
@@ -166,9 +166,7 @@ a {
 
 footer {
     position: absolute;
-    top: 1500px;
-    display: block;
-    font-size: 20px;
+    top: 1320px;
     font-weight: bold;
-    padding: 10px;
+    padding-left: 50px;
 }
