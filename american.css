@@ -34,10 +34,11 @@ h3 {
 
 main {
     background: linear-gradient(to bottom, red, yellow);
-    height: 1000px;
+    height: 1400px;
 }
 
 nav {
+    box-sizing: border-box;
     background-color: black;
     height: 50px;
 }
@@ -98,8 +99,64 @@ nav p {
     margin-top: -20px;
 }
 
+.bigmac {
+    margin-top: 30px;
+    float: left;
+}
+
+.bigmacpic {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
 p {
     font-family: Papyrus, Arial, "Times New Roman";
+}
+
+.intro {
+    font-family: Papyrus, Arial, "Times New Roman";
+    padding-left: 20px;
+}
+
+.caption {
+    text-align: center;
+    font-weight: bold;
+}
+
+.burger {
+    width: 720px;
+}
+.frenchfries {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.fries {
+    width: 488px;
+}
+
+.friespic {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.content1 {
+    display: block;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    width: 500px;
+    float: left;
+}
+
+.content2 {
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    width: 600px;
+    float: left;
 }
 
 a {
@@ -108,6 +165,9 @@ a {
 }
 
 footer {
+    position: absolute;
+    top: 1500px;
+    display: block;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;

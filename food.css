@@ -36,7 +36,6 @@ h3 {
 
 main {
     background: linear-gradient(to bottom, tan, #ede1d1);
-    height: 1000px;
 }
 
 nav {
@@ -88,6 +87,7 @@ nav {
 }
 
 nav p {
+    font-family: Papyrus, Arial, "Times New Roman";
     color: white;
     font-weight: bold;
     display: inline;
@@ -101,14 +101,21 @@ nav p {
 }
 
 .foodgroup {
+    display: block;
     width: 960px;
-    border: 5px solid black;
-    margin: 10px;
-    
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 5px 5px black;
+    margin: 25px auto;
 }
 
 p {
     font-family: Papyrus, Arial, "Times New Roman";
+}
+
+.intro {
+    font-family: Papyrus, Arial, "Times New Roman";
+    padding-left: 20px;
 }
 
 a {
