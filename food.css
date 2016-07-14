@@ -123,6 +123,14 @@ a {
     color: blue;
 }
 
+button {
+    background: linear-gradient(to bottom, tan, brown);
+}
+
+button:active {
+    background: linear-gradient(to top, tan, brown);
+}
+
 footer {
     font-size: 20px;
     font-weight: bold;

@@ -100,18 +100,30 @@ nav p {
     margin-top: -20px;
 }
 
-.taco {
-    background-color: orange;
-    width: 400px;
-    height: 400px;
-    border: 5px solid green;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 50%;
+.burrito {
+    margin-top: 20px;
 }
 
-.content1 {
+.rice {
+    border: 5px solid black;
+    margin: 30px 20px 30px 60px;
+    width: 500px;
+    height: 415px;
+    border-radius: 10px;
+}
+
+.beans {
     float: right;
+    margin: 30px 60px 30px 20px;
+    border: 5px solid black;
+    width: 500px;
+    height: 415px;
+    border-radius: 10px;
+}
+
+.content {
+    padding-left: 20px;
+    margin-bottom: 30px;
 }
 
 p {
@@ -121,6 +133,7 @@ p {
 .intro {
     font-family: Papyrus, Arial, "Times New Roman";
     padding-left: 20px;
+    margin-bottom: 30px;
 }
 
 a {
