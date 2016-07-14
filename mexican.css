@@ -1,0 +1,135 @@
+/* make mexican.css styling sheet */
+
+html, body, main, header, h1, h2, h3, nav, a, p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+header {
+    background: linear-gradient(to bottom, green, orange);
+}
+
+h1 {
+    font-family: Papyrus, Arial, "Times New Roman";
+    font-size: 70px;
+    padding: 10px 0px 0px 20px;
+    display: inline;
+}
+
+h2 {
+    font-family: Papyrus, Arial, "Times New Roman";
+    font-size: 20px;
+    padding: 10px 0px 0px 20px;
+    display: inline;
+}
+
+h3 {
+    font-family:Papyrus, Arial, "Times New Roman";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+main {
+    background: linear-gradient(to bottom, orange, green);
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+}
+
+.navis {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.navi {
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    padding: 13px 50px 12px 50px;
+    transition: background-color 0.3s;
+}
+
+.nav1 {
+    margin-left: 0px;
+}
+
+.nav2 {
+    margin-left: 200px;
+}
+
+.nav3 {
+    margin-left: 400px;
+    background-color: gray;
+}
+
+.nav4 {
+    margin-left: 600px;
+}
+
+.nav5 {
+    margin-left: 800px;
+}
+
+.nav6 {
+    margin-left: 1000px;
+}
+
+.navi:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+nav p {
+    font-family: Papyrus, Arial, "Times New Roman";
+    color: white;
+    font-weight: bold;
+    display: inline;
+}
+
+.blade {
+    position: absolute;
+    right: 30px;
+    width: 300px;
+    margin-top: -20px;
+}
+
+.taco {
+    background-color: orange;
+    width: 400px;
+    height: 400px;
+    border: 5px solid green;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.content1 {
+    float: right;
+}
+
+p {
+    font-family: Papyrus, Arial, "Times New Roman";
+}
+
+.intro {
+    font-family: Papyrus, Arial, "Times New Roman";
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
